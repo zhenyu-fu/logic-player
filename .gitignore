@@ -9,4 +9,5 @@ apps/miniapp/dist
 apps/miniapp/.temp
 apps/miniapp/.rn_temp
 apps/miniapp/.cache
+apps/miniapp/.auth
 
