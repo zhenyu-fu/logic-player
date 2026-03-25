@@ -1,0 +1,12 @@
+node_modules
+dist
+lib
+.DS_Store
+.idea
+.vscode
+
+apps/miniapp/dist
+apps/miniapp/.temp
+apps/miniapp/.rn_temp
+apps/miniapp/.cache
+

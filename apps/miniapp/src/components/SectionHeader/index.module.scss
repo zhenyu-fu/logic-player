@@ -1,0 +1,21 @@
+@use '@/styles/variables.scss' as *;
+
+.wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: $spacing-xl 0 $spacing-md;
+}
+
+.title {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+  color: $color-text-primary;
+  line-height: $line-height-tight;
+}
+
+.hint {
+  font-size: $font-size-sm;
+  color: $color-text-tertiary;
+}
+

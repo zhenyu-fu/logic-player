@@ -1,0 +1,16 @@
+{
+  "name": "logic-player",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "miniapp:init": "node scripts/trae-init-miniapp-template.cjs apps/miniapp",
+    "miniapp:preview": "node scripts/trae-preview-miniapp.cjs apps/miniapp",
+    "server:build": "node ./scripts/run-workspace.cjs packages/server build",
+    "server:start": "node ./scripts/run-workspace.cjs packages/server start",
+    "server:dev": "node ./scripts/run-workspace.cjs packages/server dev"
+  }
+}
+

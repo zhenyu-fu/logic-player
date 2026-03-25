@@ -1,0 +1,24 @@
+@use '@/styles/variables.scss' as *;
+
+.button {
+  @include button-reset;
+  width: 100%;
+  height: $button-height-md;
+  border-radius: $radius-button;
+  background: linear-gradient(135deg, $color-primary 0%, $color-primary-light 100%);
+  color: $color-text-white;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-medium;
+  transition: all $transition-base;
+
+  &:active {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
+}
+
+.buttonDisabled {
+  background: rgba(134, 144, 156, 0.18);
+  color: rgba(29, 33, 41, 0.4);
+}
+

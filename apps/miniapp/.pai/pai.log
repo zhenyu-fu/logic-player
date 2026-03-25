@@ -1,0 +1,91 @@
+[16:55:59.567] Server listening on port 60079, PID 4954
+[16:55:59.601] readProjectFiles, Found 52 files to read.
+[16:55:59.629] Starting PAI Cloud Dev...
+[16:55:59.629] [PAI SDK] createCloudSession error: ReferenceError: fetch is not defined
+    at /Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:20:100082
+    at Generator.next (<anonymous>)
+    at /Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:20:99731
+    at new Promise (<anonymous>)
+    at ih (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:20:99551)
+    at JR (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:20:100047)
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:21662)
+    at Generator.next (<anonymous>)
+    at /Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14879
+    at new Promise (<anonymous>)
+[16:55:59.631] [PAI SDK] createCloudSession response: undefined
+[16:55:59.631] Start failed: Error: create session failed.
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:21800)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[16:56:07.895] [Preview Server] Frontend connected, clients size = 1
+[16:56:07.895] Sending cached status to new connection, lastErrorMessage = {"event":"pnpm_error","message":"create session failed."}
+[16:56:13.845] [Preview Server] Frontend disconnected, clients size = 1
+[16:56:13.886] [Preview Server] Frontend connected, clients size = 1
+[16:56:13.886] Sending cached status to new connection, lastErrorMessage = {"event":"pnpm_error","message":"create session failed."}
+[16:56:17.762] [Preview Server] Frontend disconnected, clients size = 1
+[16:57:24.721] File change detected. Updating...
+[16:57:24.740] readProjectFiles, Found 52 files to read.
+[16:57:24.751] Files read. Count: 52
+[16:57:24.751] Calling pai.updateCloudDev...
+[16:57:24.752] Update failed: ReferenceError: Blob is not defined
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:22736)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[16:57:30.819] File change detected. Updating...
+[16:57:30.827] readProjectFiles, Found 52 files to read.
+[16:57:30.839] Files read. Count: 52
+[16:57:30.840] Calling pai.updateCloudDev...
+[16:57:30.841] Update failed: ReferenceError: Blob is not defined
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:22736)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[16:57:37.096] File change detected. Updating...
+[16:57:37.101] readProjectFiles, Found 52 files to read.
+[16:57:37.105] Files read. Count: 52
+[16:57:37.105] Calling pai.updateCloudDev...
+[16:57:37.106] Update failed: ReferenceError: Blob is not defined
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:22736)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[16:57:44.777] Received update request via HTTP
+[16:57:46.780] File change detected. Updating...
+[16:57:46.790] readProjectFiles, Found 52 files to read.
+[16:57:46.801] Files read. Count: 52
+[16:57:46.801] Calling pai.updateCloudDev...
+[16:57:46.802] Update failed: ReferenceError: Blob is not defined
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:22736)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[16:57:53.859] [Preview Server] Frontend connected, clients size = 1
+[16:58:44.887] [Preview Server] Frontend disconnected, clients size = 1
+[16:58:44.922] [Preview Server] Frontend connected, clients size = 1
+[16:59:10.449] [Preview Server] Frontend connected, clients size = 2
+[16:59:28.784] Received update request via HTTP
+[16:59:30.786] File change detected. Updating...
+[16:59:30.795] readProjectFiles, Found 52 files to read.
+[16:59:30.803] Files read. Count: 52
+[16:59:30.803] Calling pai.updateCloudDev...
+[16:59:30.804] Update failed: ReferenceError: Blob is not defined
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:22736)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[16:59:37.582] [Preview Server] Frontend disconnected, clients size = 2
+[16:59:37.649] [Preview Server] Frontend connected, clients size = 2
+[16:59:45.927] [Preview Server] Frontend disconnected, clients size = 2
+[16:59:46.074] [Preview Server] Frontend connected, clients size = 2
+[17:01:20.846] [Preview Server] Frontend connected, clients size = 3
+[17:01:24.454] [Preview Server] Frontend disconnected, clients size = 3
+[17:01:54.305] [Preview Server] Frontend connected, clients size = 3
+[17:02:02.786] [Preview Server] Frontend disconnected, clients size = 3
+[17:02:25.417] [Preview Server] Frontend disconnected, clients size = 2
+[17:02:54.972] Received update request via HTTP
+[17:02:56.973] File change detected. Updating...
+[17:02:56.980] readProjectFiles, Found 52 files to read.
+[17:02:56.996] Files read. Count: 52
+[17:02:56.996] Calling pai.updateCloudDev...
+[17:02:56.996] Update failed: ReferenceError: Blob is not defined
+    at Nl.<anonymous> (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:22736)
+    at Generator.next (<anonymous>)
+    at n (/Users/bytedance/.trae-cn/builtin_skills/TRAE-generate-mini-app/scripts/preview-server.js:177:14737)
+[17:09:51.843] Shutting down...
+[17:09:51.844] Stopping Cloud Dev...
