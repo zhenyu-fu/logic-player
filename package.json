@@ -11,6 +11,11 @@
     "server:build": "node ./scripts/run-workspace.cjs packages/server build",
     "server:start": "node ./scripts/run-workspace.cjs packages/server start",
     "server:dev": "node ./scripts/run-workspace.cjs packages/server dev"
+  },
+  "pnpm": {
+    "overrides": {
+      "postcss-import": "15.1.0"
+    }
   }
 }
 

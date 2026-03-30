@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDidShow, useDidHide } from '@tarojs/taro';
-import './app.scss';
+import './app.less';
 
 function App(props: React.PropsWithChildren) {
   useDidShow(() => {});

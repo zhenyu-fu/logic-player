@@ -21,15 +21,21 @@ export default defineAppConfig({
     list: [
       {
         pagePath: 'pages/stocks/index',
-        text: '股票'
+        text: '股票',
+        iconPath: 'assets/icons/stock.png',
+        selectedIconPath: 'assets/icons/stock-active.png'
       },
       {
         pagePath: 'pages/records/index',
-        text: '记录'
+        text: '记录',
+        iconPath: 'assets/icons/record.png',
+        selectedIconPath: 'assets/icons/record-active.png'
       },
       {
         pagePath: 'pages/mine/index',
-        text: '我的'
+        text: '我的',
+        iconPath: 'assets/icons/user.png',
+        selectedIconPath: 'assets/icons/user-active.png'
       }
     ]
   }
